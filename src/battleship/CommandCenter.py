@@ -11,9 +11,9 @@ class CommandCenter():
     def fire_canon(self, angle, distance):
         if (not self.hatch_open and self.shells_count >= 1):
             if (self.target_locked):
-                self.turn_cannon( angle)
+                self.turn_cannon(angle)
                 tilt_angle = self.calculate_angle(distance)
-                self.tilt_cannon( tilt_angle)
+                self.tilt_cannon(tilt_angle)
                 self.fire_shell()
                 return 0
             else:
