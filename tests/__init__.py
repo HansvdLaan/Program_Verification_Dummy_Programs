@@ -3,7 +3,7 @@ from src.battleship.CommandCenter import CommandCenter
 
 def test_1():
     print("-------- Start Test 0 --------\n")
-    commandcenter = CommandCenter(10, 4)
+    commandcenter = CommandCenter(10)
     commandcenter.lock_target()
     commandcenter.fire_canon(0, 10 ,400)
     commandcenter.fire_canon(0, 60, 100)
