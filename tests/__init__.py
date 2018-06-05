@@ -1,4 +1,4 @@
-from src.CommandCenter import CommandCenter
+from src.battleship.CommandCenter import CommandCenter
 
 
 def test_1():
