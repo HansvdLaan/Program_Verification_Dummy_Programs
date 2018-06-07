@@ -16,7 +16,7 @@ public class Python3BaseVisitor<T> extends AbstractParseTreeVisitor<T> implement
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitSingle_input(Python3Parser.Single_inputContext ctx) { return visitChildren(ctx); }
+	public T visitSingle_input(Python3Parser.Single_inputContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
@@ -597,19 +597,19 @@ public class Python3BaseVisitor<T> extends AbstractParseTreeVisitor<T> implement
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitEncoding_decl(Python3Parser.Encoding_declContext ctx) { return visitChildren(ctx); }
+	public T visitEncoding_decl(Python3Parser.Encoding_declContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitYield_expr(Python3Parser.Yield_exprContext ctx) { return visitChildren(ctx); }
+	public T visitYield_expr(Python3Parser.Yield_exprContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitYield_arg(Python3Parser.Yield_argContext ctx) { return visitChildren(ctx); }
+	public T visitYield_arg(Python3Parser.Yield_argContext ctx) { return visitChildren(ctx); }
 }

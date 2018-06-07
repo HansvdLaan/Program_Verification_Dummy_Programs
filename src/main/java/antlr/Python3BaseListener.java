@@ -15,7 +15,7 @@ public class Python3BaseListener implements Python3Listener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterSingle_input(Python3Parser.Single_inputContext ctx) { }
+	public void enterSingle_input(Python3Parser.Single_inputContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
