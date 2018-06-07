@@ -1,5 +1,5 @@
-package antlr;// Generated from C:/Users/poesd/PycharmProjects/Program_Verification_Dummy_Programs/src\Python3.g4 by ANTLR 4.7
-
+// Generated from C:/Users/poesd/IdeaProjects/Program_Verification_Dummy_Programs/src/main/resources\Python3.g4 by ANTLR 4.7
+package antlr;
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ErrorNode;
 import org.antlr.v4.runtime.tree.TerminalNode;
